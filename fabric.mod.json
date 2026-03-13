@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "remove_sdl_intro",
+  "version": "1.2",
+  "name": "Remove Stardust Labs Intro Message",
+  "description": "Removes the intro message that appears with Stardust Labs projects.",
+  "authors": [
+    "catter1"
+  ],
+  "contact": {
+    "homepage": "https://www.stardustlabs.net/",
+    "sources": "https://github.com/catter1/Stardust_Remove_Intro_Message",
+    "issues": "https://github.com/catter1/Stardust_Remove_Intro_Message/issues",
+    "discord": "https://discord.gg/stardustlabs"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.12.7",
+    "fabric-api-base": "*",
+    "minecraft": ">=1.19"
+  },
+  "suggests": {
+    "terralith": ">=2.0.0",
+    "incendium": ">=5.4.11",
+    "nullscape": ">=1.2.17"
+  },
+  "conflicts": {
+    "terralith": ">=2.6.0"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/terralith",
+        "modmenu.discord": "https://discord.gg/stardustlabs",
+        "modmenu.kofi": "https://ko-fi.com/stardustlabs",
+        "modmenu.modrinth": "https://modrinth.com/datapack/remove-terralith-intro-message",
+        "modmenu.patreon": "https://www.patreon.com/stardustlabs",
+        "modmenu.twitter": "https://twitter.com/StardustLabs",
+        "modmenu.wiki": "https://stardustlabs.miraheze.org/",
+        "modmenu.youtube": "https://www.youtube.com/@stardustlabs"
+      }
+    },
+    "fabric:resource_load_order": {
+      "before": [
+        "terralith",
+        "incendium",
+        "nullscape"
+      ]
+    }
+  }
+}
