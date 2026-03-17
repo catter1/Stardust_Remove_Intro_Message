@@ -14,31 +14,31 @@ issueTrackerURL="https://github.com/catter1/Stardust_Remove_Intro_Message/issues
 
 [[dependencies.remove_sdl_intro]]
     modId="neoforge"
-    mandatory=false
+    type="optional"
     versionRange="[21,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.remove_sdl_intro]]
     modId="minecraft"
-    mandatory=true
+    type="required"
     versionRange="[1.21,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.remove_sdl_intro]]
     modId="terralith"
-    mandatory=false
+    type="optional"
     versionRange="[2.4.0,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.remove_sdl_intro]]
     modId="incendium"
-    mandatory=false
+    type="optional"
     versionRange="[5.4.11,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.remove_sdl_intro]]
     modId="nullscape"
-    mandatory=false
+    type="optional"
     versionRange="[1.2.17,)"
     ordering="AFTER"
     side="BOTH"
