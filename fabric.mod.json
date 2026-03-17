@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "remove_sdl_intro",
-  "version": "1.2",
+  "version": "1.2.1",
   "name": "Remove Stardust Labs Intro Message",
   "description": "Removes the intro message that appears with Stardust Labs projects.",
   "authors": [

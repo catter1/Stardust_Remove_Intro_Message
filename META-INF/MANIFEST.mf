@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Specification-Title: remove_sdl_intro
 Specification-Vendor: catter1
-Specification-Version: 1.2
+Specification-Version: 1.2.1
 Implementation-Title: remove_sdl_intro
-Implementation-Version: 1.2
+Implementation-Version: 1.2.1
 Implementation-Vendor: catter1
-Implementation-Timestamp: 2026-03-13T17:29:01+0200
+Implementation-Timestamp: 2026-03-17T11:25:07+0200

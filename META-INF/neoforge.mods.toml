@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/catter1/Stardust_Remove_Intro_Message/issues
 
 [[mods]]
     modId="remove_sdl_intro"
-    version="1.2"
+    version="1.2.1"
     displayName="Remove Stardust Labs Intro Message"
     displayURL="https://github.com/catter1/Stardust_Remove_Intro_Message"
     logoFile="pack.png"
