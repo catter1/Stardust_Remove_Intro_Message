@@ -18,3 +18,21 @@ issueTrackerURL="https://github.com/catter1/Stardust_Remove_Intro_Message/issues
     versionRange="[1.21,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.remove_sdl_intro]]
+    modId="terralith"
+    type="optional"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.remove_sdl_intro]]
+    modId="incendium"
+    type="optional"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.remove_sdl_intro]]
+    modId="nullscape"
+    type="optional"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
