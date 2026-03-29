@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "remove_sdl_intro",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "name": "Remove Stardust Labs Intro Message",
   "description": "Removes the intro message that appears with Stardust Labs projects.",
   "authors": [
@@ -19,17 +19,7 @@
   "entrypoints": {},
   "mixins": [],
   "depends": {
-    "fabricloader": ">=0.12.7",
-    "fabric-api-base": "*",
     "minecraft": ">=1.19"
-  },
-  "suggests": {
-    "terralith": ">=2.0.0",
-    "incendium": ">=5.4.11",
-    "nullscape": ">=1.2.17"
-  },
-  "conflicts": {
-    "terralith": ">=2.6.0"
   },
   "custom": {
     "modmenu": {

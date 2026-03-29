@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/catter1/Stardust_Remove_Intro_Message/issues
 
 [[mods]]
     modId="remove_sdl_intro"
-    version="1.2.1"
+    version="1.2.2"
     displayName="Remove Stardust Labs Intro Message"
     displayURL="https://github.com/catter1/Stardust_Remove_Intro_Message"
     logoFile="pack.png"
@@ -13,32 +13,8 @@ issueTrackerURL="https://github.com/catter1/Stardust_Remove_Intro_Message/issues
     description="Removes the intro message that appears with Stardust Labs projects."
 
 [[dependencies.remove_sdl_intro]]
-    modId="neoforge"
-    type="optional"
-    versionRange="[21,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.remove_sdl_intro]]
     modId="minecraft"
     type="required"
     versionRange="[1.21,)"
     ordering="NONE"
-    side="BOTH"
-[[dependencies.remove_sdl_intro]]
-    modId="terralith"
-    type="optional"
-    versionRange="[2.4.0,)"
-    ordering="AFTER"
-    side="BOTH"
-[[dependencies.remove_sdl_intro]]
-    modId="incendium"
-    type="optional"
-    versionRange="[5.4.11,)"
-    ordering="AFTER"
-    side="BOTH"
-[[dependencies.remove_sdl_intro]]
-    modId="nullscape"
-    type="optional"
-    versionRange="[1.2.17,)"
-    ordering="AFTER"
     side="BOTH"
